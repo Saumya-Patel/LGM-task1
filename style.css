@@ -1,0 +1,463 @@
+body{
+    
+   margin:0px; 
+   padding: 0px;
+}
+.container{
+   padding-top:25px;
+   background :url(bg2.jpg);
+   background-size:cover;
+   background-position:center;
+   height: 100vh;
+   width: 100%;
+}
+.navbar ul li {
+    display: inline;
+    padding:0 15px;
+    float:right;
+    
+}
+#logo{
+    display:inline;
+    float:left;
+    font-size:35px;
+    color:white;
+}
+.navbar ul li a{
+    color:white;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color:yellow;
+    
+}
+
+.about h1{
+    padding-top: 150px;
+    padding-left:200px;
+    text-align:left;
+    font-size: 50px;
+    color:white;
+}
+
+.about p{
+    padding-left:200px;
+    text-align:left;
+    font-size: 20px;
+    color:white;
+}
+#button{
+   text-align:left;
+   padding-left:200px;
+  padding-top: 40px;
+}
+
+.button{
+    
+    height:40px;
+    width:100px;
+    border:0px;
+    border-radius:2px;
+    color:white;
+    background-color:#584276;
+}
+
+.button:hover{
+    background-color: yellow;
+    color:#584276;
+}
+
+
+
+
+
+
+
+#welcome{
+   width:100%;
+   
+}
+
+.titletext p{
+   width:100%;
+   text-align: center;
+   font-size:40px;
+   font-weight: bold;
+}
+.paragraph{
+    display:flex;
+    flex-direction:row;
+    padding-left: 200px;
+}
+.paragraph p{
+    font-size:20px;
+}
+.paragraph img{
+   height:250px ;
+   width:250px ;
+   padding-left:200px;
+   padding-right:200px;
+}
+
+.partition{
+    display:flex;
+    flex-direction:row;
+    padding-left:200px;
+    padding-right:200px;
+}
+.box{
+    text-align: center;
+    padding:30px;
+}
+.box img{ 
+    height:50px;
+    width:50px;
+}
+.btn{
+    height:40px;
+    width:100px;
+    border:0px;
+    border-radius:2px;
+    color:white;
+    background-color:#584276;
+}
+.btn:hover{
+    background-color: yellow;
+    color:#584276;
+}
+
+
+
+
+
+
+
+
+
+
+#projects{
+    width:100%;
+}
+
+.project p{
+   width:100%;
+   text-align: center;
+   font-size:40px;
+   font-weight: bold;
+}
+.grid{
+display: grid;
+grid-template-columns: 338px 338px 338px 338px;
+grid-template-rows: 330px 200px;
+background-color: grey;
+margin:0px;
+}
+.grid:hover{  
+background-color: yellow;
+}
+.pro{
+ background-color:whitesmoke;
+ padding:0px;   
+}
+
+.sec{  
+   display:flex;
+   flex-direction:row; 
+}
+
+
+.pro p{
+ 
+ text-align: left;
+
+}
+
+.pro img{
+    height:330px;
+    width:338px;
+    
+}
+.bt{
+    height:40px;
+    width:100px;
+    border:0px;
+    border-radius:2px;
+    color:white;
+    background-color:#584276;
+}
+.bt:hover{
+    background-color: white;
+    color:#584276;
+}
+
+
+
+
+
+
+
+.table p{
+   width:100%;
+   text-align: center;
+   font-size:40px;
+   font-weight: bold;
+}
+
+.price{
+    display:flex;
+    flex-direction:row;
+    padding-left:200px;
+    padding-right:200px;
+}
+.plan{
+    text-align: center;
+    padding:30px;
+}
+
+
+
+
+
+
+
+
+
+.video-pro p{
+   width:100%;
+   text-align: center;
+   font-size:40px;
+   font-weight: bold;
+}
+.video-sec{
+    display:flex;
+    flex-direction:row;
+    background-color:#584276;
+    padding-left:140px;
+    padding-right:140px;
+}
+.video-sec iframe{
+padding:30px;
+
+border:none;
+}
+
+
+
+
+
+
+
+
+
+
+.team p{
+   width:100%;
+   text-align: center;
+   font-size:40px;
+   font-weight: bold;
+}
+
+.zippy-team{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    padding-left:140px;
+    padding-right:140px;
+}
+.member1{
+    padding-top:10px;
+    position:relative;
+    padding-left:30px;
+    padding-right:30px;
+    overflow:hidden;
+}
+.connect i {
+  font-size:22px;
+  padding-top: 20px;
+  padding-left:10px;
+  color:#584276;
+}
+.connect i:hover{
+  color:yellow;
+}
+
+.detail h2{ 
+font-size:16px;
+text-align: center; 
+}
+.detail h3{
+font-size:12px;
+color:grey;   
+text-align: center; 
+}
+
+
+
+
+#zippylife { 
+ background-color:gainsboro;
+}
+
+.zippylife p{
+   width:100%;
+   text-align: center;
+   font-size:40px;
+   font-weight: bold;
+}
+.team {    
+    padding:20px 200px 20px 320px;
+}
+.more{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.more img{   
+padding:20px;
+}
+
+
+
+
+
+
+
+.blog p{
+   width:100%;
+   text-align: center;
+   font-size:40px;
+   font-weight: bold;
+}
+.box1{
+    text-align: center;
+    padding:30px;
+}
+.box1 img{ 
+    height:150px;
+    width:220px;
+}
+
+.box1 h4{ 
+color:grey;
+}
+
+
+
+
+
+
+
+
+
+#newsletter{
+   background :url(bg3.jpg);
+   background-size:cover;
+   background-position:center;
+   height: 30vh;
+   width: 100%;
+}
+.newsletter  p{
+   width:100%;
+   text-align: center;
+   font-size:40px;
+   font-weight: bold;
+   color:white;
+}
+.signup{
+ text-align:center; 
+ 
+}
+
+.signup input{   
+width:30%;
+height:40px;
+background-color: white;
+border:none;
+}
+.signup button{   
+    height:40px;
+    width:100px;
+    border:0px;
+    border-radius:2px;
+    color:white;
+    background-color:#584276;
+}
+.signup button:hover{
+    background-color: yellow;
+    color:#584276;
+    border:0px;
+    border-radius:2px;
+}
+.signup a{ 
+color:white;
+text-decoration:none;
+}
+
+
+
+
+
+
+
+#footer{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    background-color: gainsboro;
+}
+#footer div{ 
+padding:40px;
+}
+#footer h2{ 
+color:black;
+}
+#footer h4{ 
+
+color:#584276;
+}
+
+.follow h2{  
+text-align:center;
+
+}
+.follow i
+{
+  font-size:25px; 
+  padding:10px;
+  color:#584276;
+}
+
+.follow i:hover
+{
+  
+ color:cadetblue; 
+}
+#map{
+    display:flex;
+    flex-direction:row;
+    background-color: yellow; 
+}
+.Contact{
+   padding:20px;
+}
+.Contact input{
+    height:30px;
+}
+
+#msg{
+    height:50px;
+}
+.Contact button{
+    
+    height:40px;
+    width:318px;
+    border:0px;
+    border-radius:2px;
+    color:white;
+    background-color:#584276;
+}
+
+.Contact button:hover{
+    background-color:grey;
+    color:#584276;
+}
